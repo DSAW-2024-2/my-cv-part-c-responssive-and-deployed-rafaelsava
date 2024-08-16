@@ -80,6 +80,7 @@ main{
 }
 .column{
     width: 50%;
+    word-wrap: break-word;
 }
 
 section {
