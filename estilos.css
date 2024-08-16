@@ -20,7 +20,7 @@ header {
     flex-direction: column;
     align-items: center;
     border-radius: 10px 10px 0 0;
-    color: white;
+    color: #f4f4f4;
     width: 100%;
     box-sizing: border-box;
     position: relative;
@@ -117,8 +117,6 @@ section ul li {
 
 @media (max-width: 480px) {
     main{
-        margin-top: 30px;
-        display: flex;
         flex-direction: column;
     }
 
@@ -133,24 +131,16 @@ section ul li {
     }
 
     .img-header img {
-        border-radius: 50%;
         width: 125px;
         height: 125px;
-        object-fit: cover;
-        border: 10px solid white;
     }
     .img-header {
-        position: absolute;
-        top: 45%;
-        left: 50%;
         transform: translate(-50%, -70%);
     }
     h1{
         text-align: center;
     }
     .decoration{
-        margin-top: 20px;
-        border:1px solid black;
         width: 40%;
     }
     .container{
